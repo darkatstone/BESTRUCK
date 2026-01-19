@@ -619,10 +619,10 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // 送信データを準備
         const analyticsData = {
-            utm_source: utmParams.utm_source,
+            // utm_source: utmParams.utm_source,
             utm_medium: utmParams.utm_medium,
             utm_campaign: utmParams.utm_campaign,
-            referrer: document.referrer || '',
+            // referrer: document.referrer || '',
             user_agent: navigator.userAgent || '',
             page_url: window.location.href,
             session_id: getSessionId()
