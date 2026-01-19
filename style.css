@@ -3332,3 +3332,119 @@ ul {
     }
 }
 
+/* ========================================
+   感謝ページ
+======================================== */
+.thank-you-page {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--section-padding);
+    background: linear-gradient(135deg, #F9FAFB 0%, #FFFFFF 100%);
+}
+
+.thank-you-content {
+    max-width: 600px;
+    text-align: center;
+    padding: 60px 40px;
+    background: var(--white);
+    border-radius: 16px;
+    box-shadow: var(--shadow-xl);
+}
+
+.thank-you-icon {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    animation: checkmarkAnimation 0.6s ease-in-out;
+}
+
+@keyframes checkmarkAnimation {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.thank-you-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--dark-gray);
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.thank-you-message {
+    font-size: 18px;
+    color: var(--medium-gray);
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.thank-you-info {
+    background: var(--bg-gray);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 40px;
+}
+
+.thank-you-info-text {
+    font-size: 16px;
+    color: var(--medium-gray);
+    line-height: 1.8;
+}
+
+.thank-you-actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.thank-you-actions .btn {
+    min-width: 200px;
+}
+
+/* モバイル対応 */
+@media (max-width: 768px) {
+    .thank-you-page {
+        padding: var(--section-padding-mobile);
+    }
+    
+    .thank-you-content {
+        padding: 40px 24px;
+        margin: 0 20px;
+    }
+    
+    .thank-you-title {
+        font-size: 24px;
+    }
+    
+    .thank-you-message {
+        font-size: 16px;
+    }
+    
+    .thank-you-info {
+        padding: 20px;
+    }
+    
+    .thank-you-info-text {
+        font-size: 14px;
+    }
+    
+    .thank-you-actions {
+        flex-direction: column;
+    }
+    
+    .thank-you-actions .btn {
+        width: 100%;
+        min-width: auto;
+    }
+}
