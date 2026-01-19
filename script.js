@@ -585,7 +585,7 @@ document.addEventListener('DOMContentLoaded', function() {
 (function() {
     // Google Apps ScriptのWebアプリURL
     // 設定方法は「GOOGLE_SHEETS_ANALYTICS_SETUP.md」を参照してください
-    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbztDdkORWIjLADTgerSsrbbLbkYxwfeSlNMJHEr9VgShG8PLwCPpOV04Cx3Oz5KIQnR/exec';
+    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxO1jcQDE2yFwLbn51hs9VpI83gcCNX2HM8ZnTaww31IQysR_Q-vw4BH07CBMr68Iab/exec';
     
     // セッションIDを生成（既に存在する場合は取得）
     function getSessionId() {
@@ -657,7 +657,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // ========================================
 // コンソールメッセージ
 // ========================================
-const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbztDdkORWIjLADTgerSsrbbLbkYxwfeSlNMJHEr9VgShG8PLwCPpOV04Cx3Oz5KIQnR/exec';
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxO1jcQDE2yFwLbn51hs9VpI83gcCNX2HM8ZnTaww31IQysR_Q-vw4BH07CBMr68Iab/exec';
 const SPREADSHEET_ID = '1DOmwWf16_8JroffsY8HtLfY7GDHxMsxkPkvBunaUDmY';
 console.log('%c🚛 ナットチェッカー LP', 'font-size: 20px; font-weight: bold; color: #DC2626;');
 console.log('%c事故ゼロの未来を、技術で実現', 'font-size: 14px; color: #4B5563;');
